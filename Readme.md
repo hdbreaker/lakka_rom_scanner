@@ -1,7 +1,7 @@
 # Script to add custom roms to Lakka OS 
 __ROMS NOT AUTODETECTED__
 
-#For this you need to enable ssh before
+## For this you need to enable ssh before
 
 1) put this folder inside /storage/roms in lakka 
 2) create_game_folders.sh => Create a list of custom directories with descripted names where the user has to put their roms. 
