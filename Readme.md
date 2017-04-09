@@ -1,4 +1,4 @@
-# Script to add custom roms to lakka OS (ROMS NOT AUTODETECTED)
+# Script to add custom roms to Lakka OS (ROMS NOT AUTODETECTED)
 
 ## Put this folder inside /storage/roms in lakka (for this you need to enable ssh before)
 
@@ -7,5 +7,7 @@
 3) create_playlist.sh => Magic for create the playlists here, this is executed by scan.sh
 
 .Only run create_game_folders.sh one time.
+
 .When add new roms to lakka run scan.sh again.
+
 .The first time you run scan.sh you'll must reboot the system.
