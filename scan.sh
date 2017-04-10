@@ -41,10 +41,6 @@ for folder in $(ls /storage/roms); do
 			system="Cave Story|/tmp/cores/nxengine_libretro.so"
 			create_new_list "$system"
 		esac
-		case $folder in "ColecoColecoVision")
-			system="Coleco - Coleco Vision|/tmp/cores/bluemsx_libretro.so"
-			create_new_list "$system"
-		esac
 		case $folder in "DOOM")
 			system="DOOM|/tmp/cores/prboom_libretro.so"
 			create_new_list "$system"
@@ -59,10 +55,6 @@ for folder in $(ls /storage/roms); do
 		esac
 		case $folder in "Lutro")
 			system="Lutro|/tmp/cores/lutro_libretro.so"
-			create_new_list "$system"
-		esac
-		case $folder in "Magnavox")
-			system="Magnavox|/tmp/cores/Odyssey2: o2em_libretro.so"
 			create_new_list "$system"
 		esac
 		case $folder in "MAME")
@@ -85,14 +77,6 @@ for folder in $(ls /storage/roms); do
 			system="NEC - PC Engine - TurboGrafx 16|/tmp/cores/mednafen_pce_fast_libretro.so"
 			create_new_list "$system"
 		esac
-		case $folder in "NintendoFamicomDiskSystem")
-			system="Nintendo - Famicom Disk System|/tmp/cores/nestopia_libretro.so"
-			create_new_list "$system"
-		esac
-		case $folder in "NintendoGameBoyAdvancee-Cards")
-			system="Nintendo - Game Boy Advance (e-Cards)|/tmp/cores/mgba_libretro.so"
-			create_new_list "$system"
-		esac
 		case $folder in "NintendoGameBoyAdvance")
 			system="Nintendo - Game Boy Advance|/tmp/cores/mgba_libretro.so"
 			create_new_list "$system"
@@ -107,22 +91,6 @@ for folder in $(ls /storage/roms); do
 		esac
 		case $folder in "NintendoNintendo64")
 			system="Nintendo - Nintendo 64|/tmp/cores/mupen64plus_libretro.so"
-			create_new_list "$system"
-		esac
-		case $folder in "NintendoNintendoDSDecrypted")
-			system="Nintendo - Nintendo DS Decrypted|/tmp/cores/desmume_libretro.so"
-			create_new_list "$system"
-		esac
-		case $folder in "NintendoNintendoDSDownloadPlayBETA")
-			system="Nintendo - Nintendo DS (Download Play) (BETA)|/tmp/cores/desmume_libretro.so"
-			create_new_list "$system"
-		esac
-		case $folder in "NintendoNintendoDSiDecrypted")
-			system="Nintendo - Nintendo DSi Decrypted|/tmp/cores/desmume_libretro.so"
-			create_new_list "$system"
-		esac
-		case $folder in "NintendoNintendoDSiDLC")
-			system="Nintendo - Nintendo DSi (DLC)|/tmp/cores/desmume_libretro.so"
 			create_new_list "$system"
 		esac
 		case $folder in "NintendoNintendoEntertainmentSystem")
